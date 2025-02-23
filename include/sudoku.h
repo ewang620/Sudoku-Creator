@@ -9,6 +9,7 @@ public:
     SudokuBoard();
     void print() const;
     bool isValid(int row, int col, int num) const;
+    bool solve();
 private:
     std::vector<std::vector<int>> board;
 };
